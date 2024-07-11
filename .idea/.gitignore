@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignore pycharm settings files
+modules.xml
+profiles_settings.xml
+rag-local-llms.iml
+vcs.xml
