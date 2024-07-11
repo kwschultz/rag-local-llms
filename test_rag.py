@@ -14,7 +14,7 @@ def test_monopoly_rules():
         question="How much total money does a player start with in Monopoly? (Answer with the number only)",
         expected_response="$1500",
     )
-
+    # mistral gets this correct, phi3:mini does not
 
 def test_ticket_to_ride_rules():
     assert query_and_validate(
