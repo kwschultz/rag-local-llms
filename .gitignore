@@ -4,3 +4,4 @@ backup
 chroma
 # Ignore private local docs
 data/cp_hoa*.pdf
+.idea/misc.xml
