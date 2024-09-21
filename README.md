@@ -1,9 +1,17 @@
-## Langchain RAG with local LLMs
+## Retrieval Augmented Generation with local LLMs
 
-Experimenting with Retrieval Augmented Generation (RAG) using local LLMs.
-<br>
-- Tech used: Ollama LLM wrapper, Chroma, Langchain, Mistral LLM model, Nomic Embeddings.
-- Runtime: Everything is run locally on Apple M1 CPU. 
+### Advanced RAG, 'locally' on Google Colab via HuggingFace 🤗 
+`Goal`: Complex PDF question answering, many pages including figures. 
+- LlamaIndex pipelines, semantic partitioning, re-ranking, response synthesis
+- Efficient LLM : [HuggingFace/TinyLlama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
+- End to end Evaluation: [DeepEval](https://huggingface.co/Efficient-Large-Model/VILA-7b)
+- Next experiment: Efficient Multi-modal RAG for more complex visual QA [HuggingFace/VILA](https://huggingface.co/Efficient-Large-Model/VILA-7b)
 
+### Vanilla RAG, locally on M1 macbook.
+`Goal`: Privacy-preserving 🤫 sensistive document question answering 📄.
+- Ollama + Mistral LLM, Chroma DB 🍭, Nomic Embeddings 🍪
+- Langchain 🦜🔗 pipeline
 
-Adapted from [pixegami/rag-tutorial-v2])(https://github.com/pixegami/rag-tutorial-v2)
+---
+"People who buy things are suckers." - Ron Swanson 
+
